@@ -6,7 +6,7 @@
 body {
   padding-inline-start: 10%;
   padding-inline-end: 10%;
-  background-color: rgba(17, 194, 40, 0.781);
+  background-color: rgba(17, 111, 194, 0.781);
 
   /* border-radius: 7px; */
   box-shadow: 15px -2px 63px 13px rgba(56, 55, 55, 0.3);
@@ -72,10 +72,11 @@ button:hover {
 input {
   width: 100%;
   height: 30px;
-  background-color: yellow;
+  background-color: rgb(129, 129, 37);
   border: none;
   font-size: 16px;
   cursor: pointer;
+  color: white;
 }
 
 input::-webkit-outer-spin-button,
@@ -97,7 +98,7 @@ input::-webkit-inner-spin-button {
 }
 
 th {
-  background-color: yellow;
+  background-color: red;
   height: 30px;
 }
 
