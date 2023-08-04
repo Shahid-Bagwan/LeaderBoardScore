@@ -2,7 +2,7 @@ import './style.css';
 import displayList, { getValue } from './modules/displaylist.js';
 import postValue from './modules/post.js';
 
-const apiKey = 'Cw2HUhz2DRmZdE3JLvOM';
+const apiKey = 'Cw1HUhz2DRmZdE3JLvOM';
 const gameAPI = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${apiKey}/scores/`;
 const refreshBtn = document.querySelector('.refresh');
 const form = document.getElementById('form');
